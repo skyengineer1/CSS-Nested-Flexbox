@@ -1,0 +1,58 @@
+div.container {
+    width: 420px;
+    height: 100%;
+    box-shadow: 1px 2px 3px 5px lightgrey;
+    padding: 10px;
+}
+
+img.profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
+div.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+div.unit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+p.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+p.description {
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+p.message {
+    margin-top: 6px;
+    color: rgba(65, 65, 65, 0.8);
+}
+
+p.date {
+    font-size: 16px;
+    color: rgba(65, 65, 65, 0.8);
+    margin-bottom: 0;
+    vertical-align: bottom;
+}
+
+p.inbox-title {
+    color: rgba(65, 65, 65, 0.8);
+}
